@@ -1,0 +1,93 @@
+[13-Apr-2020 16:14:29 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\functions.php:6
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-config.php(92): require_once()
+#1 C:\xampp\htdocs\starter_theme\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\starter_theme\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+
+Next Exception: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(ParseError))
+#1 {main}
+  thrown in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[13-Apr-2020 16:14:31 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\functions.php:6
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-config.php(92): require_once()
+#1 C:\xampp\htdocs\starter_theme\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\starter_theme\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\starter_theme\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+
+Next Exception: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(ParseError))
+#1 {main}
+  thrown in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[13-Apr-2020 16:15:24 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in C:\xampp\htdocs\starter_theme\wp-includes\plugin.php on line 184
+[13-Apr-2020 16:15:40 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\functions.php:6
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-config.php(92): require_once()
+#1 C:\xampp\htdocs\starter_theme\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\starter_theme\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\starter_theme\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+
+Next Exception: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(ParseError))
+#1 {main}
+  thrown in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[13-Apr-2020 16:23:29 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\functions.php:19
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-config.php(92): require_once()
+#1 C:\xampp\htdocs\starter_theme\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\starter_theme\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\starter_theme\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+
+Next Exception: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(ParseError))
+#1 {main}
+  thrown in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[13-Apr-2020 16:24:35 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\functions.php:19
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-config.php(92): require_once()
+#1 C:\xampp\htdocs\starter_theme\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\starter_theme\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\starter_theme\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+
+Next Exception: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(ParseError))
+#1 {main}
+  thrown in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[13-Apr-2020 16:26:06 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\functions.php:19
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-config.php(92): require_once()
+#1 C:\xampp\htdocs\starter_theme\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\starter_theme\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+
+Next Exception: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(ParseError))
+#1 {main}
+  thrown in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[13-Apr-2020 16:27:10 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in C:\xampp\htdocs\starter_theme\wp-includes\plugin.php on line 184
+[13-Apr-2020 16:27:11 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in C:\xampp\htdocs\starter_theme\wp-includes\plugin.php on line 184
+[13-Apr-2020 16:27:44 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in C:\xampp\htdocs\starter_theme\wp-includes\plugin.php on line 184
+[13-Apr-2020 16:32:01 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\header.php:29
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', true)
+#1 C:\xampp\htdocs\starter_theme\wp-includes\general-template.php(41): locate_template(Array, true)
+#2 C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\index.php(3): get_header()
+#3 C:\xampp\htdocs\starter_theme\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\starter_theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\starter_theme\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+
+Next Exception: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(Parse in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
