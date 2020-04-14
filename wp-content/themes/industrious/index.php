@@ -9,9 +9,13 @@ if ( is_home() ) {
     get_template_part( 'template-parts/content', 'cta' );
     get_template_part( 'template-parts/content', 'testimonials' );
 
-} else {
+} elseif ( is_page() ) {
 
-    get_template_part( 'template-parts/content', 'post' );
+    get_template_part( 'page' );
+
+} elseif( is_single() ) {
+
+    get_template_part( 'post' );
 
 }
 

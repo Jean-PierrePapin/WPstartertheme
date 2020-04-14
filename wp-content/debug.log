@@ -91,3 +91,130 @@ Stack trace:
 Next Exception: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
 Stack trace:
 #0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(Parse in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[14-Apr-2020 13:47:38 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected 'wp_register_style' (T_STRING) in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-config.php(92): require_once()
+#1 C:\xampp\htdocs\starter_theme\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\starter_theme\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+
+Next Exception: syntax error, unexpected 'wp_register_style' (T_STRING) in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(ParseError))
+#1 {main}
+  thrown in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[14-Apr-2020 13:50:53 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected 'wp_register_style' (T_STRING) in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-config.php(92): require_once()
+#1 C:\xampp\htdocs\starter_theme\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\starter_theme\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\starter_theme\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+
+Next Exception: syntax error, unexpected 'wp_register_style' (T_STRING) in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(ParseError))
+#1 {main}
+  thrown in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[14-Apr-2020 13:52:22 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected 'wp_register_style' (T_STRING) in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-config.php(92): require_once()
+#1 C:\xampp\htdocs\starter_theme\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\starter_theme\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\starter_theme\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+
+Next Exception: syntax error, unexpected 'wp_register_style' (T_STRING) in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(ParseError))
+#1 {main}
+  thrown in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[14-Apr-2020 13:54:54 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected 'wp_register_style' (T_STRING) in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-config.php(92): require_once()
+#1 C:\xampp\htdocs\starter_theme\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\starter_theme\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\starter_theme\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+
+Next Exception: syntax error, unexpected 'wp_register_style' (T_STRING) in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(ParseError))
+#1 {main}
+  thrown in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[14-Apr-2020 13:58:13 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected 'wp_register_style' (T_STRING) in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\functions.php:22
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-config.php(92): require_once()
+#1 C:\xampp\htdocs\starter_theme\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\starter_theme\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\starter_theme\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+
+Next Exception: syntax error, unexpected 'wp_register_style' (T_STRING) in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(ParseError))
+#1 {main}
+  thrown in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[14-Apr-2020 14:13:21 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in C:\xampp\htdocs\starter_theme\wp-includes\l10n.php on line 1137
+[14-Apr-2020 14:13:21 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[14-Apr-2020 14:13:28 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in C:\xampp\htdocs\starter_theme\wp-includes\plugin.php on line 184
+[14-Apr-2020 14:18:15 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\functions.php on line 53
+[14-Apr-2020 14:18:15 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[14-Apr-2020 14:18:38 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in C:\xampp\htdocs\starter_theme\wp-includes\l10n.php on line 1238
+[14-Apr-2020 14:18:38 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[14-Apr-2020 14:19:09 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in C:\xampp\htdocs\starter_theme\wp-includes\l10n.php on line 1137
+[14-Apr-2020 14:19:09 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[14-Apr-2020 14:19:33 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in C:\xampp\htdocs\starter_theme\wp-includes\l10n.php on line 1137
+[14-Apr-2020 14:19:33 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[14-Apr-2020 14:19:38 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in C:\xampp\htdocs\starter_theme\wp-includes\l10n.php on line 1137
+[14-Apr-2020 14:19:38 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[14-Apr-2020 14:24:13 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\header.php:39
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', true)
+#1 C:\xampp\htdocs\starter_theme\wp-includes\general-template.php(41): locate_template(Array, true)
+#2 C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\index.php(3): get_header()
+#3 C:\xampp\htdocs\starter_theme\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\starter_theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\starter_theme\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+
+Next Exception: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(Parse in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[14-Apr-2020 14:24:25 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\header.php:39
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', true)
+#1 C:\xampp\htdocs\starter_theme\wp-includes\general-template.php(41): locate_template(Array, true)
+#2 C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\index.php(3): get_header()
+#3 C:\xampp\htdocs\starter_theme\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\starter_theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\starter_theme\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+
+Next Exception: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(Parse in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[14-Apr-2020 15:20:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_post() in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\index.php:16
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\starter_theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\starter_theme\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+
+Next Exception: Call to undefined function is_post() in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(Error))
+#1 {main}
+  thrown in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[14-Apr-2020 15:20:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_post() in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\index.php:16
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\starter_theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\starter_theme\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+
+Next Exception: Call to undefined function is_post() in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(Error))
+#1 {main}
+  thrown in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82

@@ -11,27 +11,35 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		
+		<?php wp_head(); ?>
+
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
 		<header id="header">
-			<a class="logo" href="index.html">Industrious</a>
+			<a class="logo" href="<?php echo home_url(); ?>">Industrious</a>
 			<nav>
 				<a href="#menu">Menu</a>
 			</nav>
 		</header>
 
 		<!-- Nav -->
-
-		<?php /* wp_nav_menu(
-			'menu'	=>	__( 'primary menu' )
-		); */ ?>
 		<nav id="menu">
-			<ul class="links">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="elements.html">Elements</a></li>
-				<li><a href="generic.html">Generic</a></li>
-			</ul>
+			
+			<?php 
+
+			if( has_nav_menu( 'primary' ) ) {
+				wp_nav_menu([
+					'theme_location'			=>	'primary',
+					'container'					=>	false,
+					'menu_class'				=>	'links',
+					'fallback_cb'				=>	false,
+					'depth'						=>	0
+				]); 
+			}
+					
+			?>
+
 		</nav>
