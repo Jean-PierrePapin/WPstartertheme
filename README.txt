@@ -16,4 +16,7 @@ Pour être à l’aise sur les cours, les formateurs WP doivent maîtriser le so
 A FAIRE dans le theme/plugin 
 ----------------------------
 
-Installer le plugin wp-subtitle et à la bundler dans le theme pour que la fonction the_subtitle fonctionne.
+-   Installer le plugin wp-subtitle et à la bundler dans le theme pour que la fonction the_subtitle fonctionne.
+-   Créer plugin pour mettre les testimonials en DB avec interface admin pour les enregistrer
+-   Créer des blocks gutenberg pour le template part highlights
+-   Penser à voir comment intégrer WooCommerce et commencer à travailler dessus
