@@ -7,6 +7,7 @@
             <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
         </header>
         <div class="testimonials">
+            <!-- Individual testominials and where to put the the while -->
             <section>
                 <div class="content">
                     <blockquote>
