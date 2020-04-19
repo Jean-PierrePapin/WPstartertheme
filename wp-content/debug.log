@@ -218,3 +218,103 @@ Stack trace:
 #0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(Error))
 #1 {main}
   thrown in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[19-Apr-2020 13:45:58 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?
+        user_name varchar (100) DEFAULT '',
+        password varchar (100) D' at line 2 for query CREATE TABLE wp_codingtheme_dbp_to_login(
+        id int(10) NOT NULL AUTO_INCREMENT?
+        user_name varchar (100) DEFAULT '',
+        password varchar (100) DEFAULT '',
+        email varchar (100) DEFAULT '',
+        PRIMARY KEY (id)
+    ) made by activate_plugin, do_action('activate_database-insert/DataBase_Plugin.php'), WP_Hook->do_action, WP_Hook->apply_filters, DBP_tb_create, dbDelta
+[19-Apr-2020 13:57:33 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?
+        user_name varchar (100) DEFAULT '',
+        password varchar (100) D' at line 2 for query CREATE TABLE wp_codingtheme_dbp_to_login(
+        id int(10) NOT NULL AUTO_INCREMENT?
+        user_name varchar (100) DEFAULT '',
+        password varchar (100) DEFAULT '',
+        email varchar (100) DEFAULT '',
+        PRIMARY KEY (id)
+    ) made by activate_plugin, do_action('activate_database-insert/DataBase_Plugin.php'), WP_Hook->do_action, WP_Hook->apply_filters, DBP_tb_create, dbDelta
+[19-Apr-2020 14:14:37 UTC] PHP Warning:  Use of undefined constant QM_EDITOR_COOKIE - assumed 'QM_EDITOR_COOKIE' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\output\Html.php on line 473
+[19-Apr-2020 14:14:37 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected '}' in C:\xampp\htdocs\starter_theme\wp-content\plugins\database-insert\DataBase_Plugin.php:16
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-config.php(92): require_once()
+#1 C:\xampp\htdocs\starter_theme\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\starter_theme\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+
+Next Exception: syntax error, unexpected '}' in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(ParseError))
+#1 {main}
+  thrown in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[19-Apr-2020 14:15:38 UTC] PHP Warning:  Use of undefined constant QM_EDITOR_COOKIE - assumed 'QM_EDITOR_COOKIE' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\output\Html.php on line 473
+[19-Apr-2020 14:15:38 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected '}' in C:\xampp\htdocs\starter_theme\wp-content\plugins\database-insert\DataBase_Plugin.php:16
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-config.php(92): require_once()
+#1 C:\xampp\htdocs\starter_theme\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\starter_theme\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+
+Next Exception: syntax error, unexpected '}' in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(ParseError))
+#1 {main}
+  thrown in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[19-Apr-2020 14:16:48 UTC] PHP Warning:  Use of undefined constant QM_EDITOR_COOKIE - assumed 'QM_EDITOR_COOKIE' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\output\Html.php on line 473
+[19-Apr-2020 14:16:48 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected '}' in C:\xampp\htdocs\starter_theme\wp-content\plugins\database-insert\DataBase_Plugin.php:16
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-config.php(92): require_once()
+#1 C:\xampp\htdocs\starter_theme\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\starter_theme\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+
+Next Exception: syntax error, unexpected '}' in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(ParseError))
+#1 {main}
+  thrown in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[19-Apr-2020 14:16:50 UTC] PHP Warning:  Use of undefined constant QM_EDITOR_COOKIE - assumed 'QM_EDITOR_COOKIE' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\output\Html.php on line 473
+[19-Apr-2020 14:16:50 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected '}' in C:\xampp\htdocs\starter_theme\wp-content\plugins\database-insert\DataBase_Plugin.php:16
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-config.php(92): require_once()
+#1 C:\xampp\htdocs\starter_theme\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\starter_theme\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\starter_theme\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+
+Next Exception: syntax error, unexpected '}' in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(ParseError))
+#1 {main}
+  thrown in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[19-Apr-2020 14:16:52 UTC] PHP Warning:  Use of undefined constant QM_EDITOR_COOKIE - assumed 'QM_EDITOR_COOKIE' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\output\Html.php on line 473
+[19-Apr-2020 14:16:52 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected '}' in C:\xampp\htdocs\starter_theme\wp-content\plugins\database-insert\DataBase_Plugin.php:16
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-config.php(92): require_once()
+#1 C:\xampp\htdocs\starter_theme\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\starter_theme\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\starter_theme\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+
+Next Exception: syntax error, unexpected '}' in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(ParseError))
+#1 {main}
+  thrown in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[19-Apr-2020 14:37:35 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\xampp\htdocs\starter_theme\wp-includes\update.php on line 162
+[19-Apr-2020 14:37:36 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\xampp\htdocs\starter_theme\wp-includes\update.php on line 578
+[19-Apr-2020 15:10:38 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected 'in' (T_STRING) in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\template-parts\content-testimonials.php:24
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#1 C:\xampp\htdocs\starter_theme\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#2 C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\index.php(10): get_template_part('template-parts/...', 'testimonials')
+#3 C:\xampp\htdocs\starter_theme\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\starter_theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\starter_theme\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+
+Next Exception: syntax error, unexpected 'in' (T_STRING) in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PH in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82

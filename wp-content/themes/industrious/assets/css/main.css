@@ -21,7 +21,9 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #ffffff; }
+  background: #ffffff; 
+  padding-top: 0 !important;
+}
   body.is-preload *, body.is-preload *:before, body.is-preload *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;

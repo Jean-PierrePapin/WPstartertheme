@@ -17,6 +17,8 @@ A FAIRE dans le theme/plugin
 ----------------------------
 
 -   Installer le plugin wp-subtitle et à la bundler dans le theme pour que la fonction the_subtitle fonctionne.
--   Créer plugin pour mettre les testimonials en DB avec interface admin pour les enregistrer
+-   Créer plugin pour mettre les testimonials en DB avec interface admin pour les enregistrer 
+    https://www.youtube.com/watch?v=rj1roENqs-k
+    https://www.youtube.com/watch?v=tb68MXVmVKs
 -   Créer des blocks gutenberg pour le template part highlights
 -   Penser à voir comment intégrer WooCommerce et commencer à travailler dessus
