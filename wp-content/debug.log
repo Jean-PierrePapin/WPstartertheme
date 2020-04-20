@@ -318,3 +318,9 @@ Stack trace:
 Next Exception: syntax error, unexpected 'in' (T_STRING) in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
 Stack trace:
 #0 [internal function]: QM_Collector_PH in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82
+[20-Apr-2020 18:28:33 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\starter_theme\wp-admin\includes\class-wp-site-health.php on line 2303
+[20-Apr-2020 18:28:34 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\starter_theme\wp-admin\includes\class-wp-site-health.php on line 2305
+[20-Apr-2020 18:28:34 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\starter_theme\wp-admin\includes\class-wp-site-health.php on line 2303
+[20-Apr-2020 18:28:34 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\starter_theme\wp-admin\includes\class-wp-site-health.php on line 2305
+[20-Apr-2020 18:28:34 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\starter_theme\wp-admin\includes\class-wp-site-health.php on line 2303
+[20-Apr-2020 18:28:34 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\starter_theme\wp-admin\includes\class-wp-site-health.php on line 2305
