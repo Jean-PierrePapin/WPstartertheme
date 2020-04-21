@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Testimonials. My own code!
- * Description: A simple WordPress plugin that allows user to create testimonials and add them to the DB
+ * Description: A simple WordPress plugin that allows user to create testimonials
  * Version: 1.0
  * Author: Sam the Coder
  * Author URI: none

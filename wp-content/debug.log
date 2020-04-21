@@ -324,3 +324,16 @@ Stack trace:
 [20-Apr-2020 18:28:34 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\starter_theme\wp-admin\includes\class-wp-site-health.php on line 2305
 [20-Apr-2020 18:28:34 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\starter_theme\wp-admin\includes\class-wp-site-health.php on line 2303
 [20-Apr-2020 18:28:34 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\xampp\htdocs\starter_theme\wp-admin\includes\class-wp-site-health.php on line 2305
+[21-Apr-2020 19:07:03 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected '?>' in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\template-parts\content-highlights.php:30
+Stack trace:
+#0 C:\xampp\htdocs\starter_theme\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#1 C:\xampp\htdocs\starter_theme\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#2 C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\index.php(8): get_template_part('template-parts/...', 'highlights')
+#3 C:\xampp\htdocs\starter_theme\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\starter_theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\starter_theme\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+
+Next Exception: syntax error, unexpected '?>' in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handl in C:\xampp\htdocs\starter_theme\wp-content\plugins\query-monitor\collectors\php_errors.php on line 82

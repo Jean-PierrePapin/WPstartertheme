@@ -11,7 +11,7 @@
 
             <?php 
 
-            // Solution après une recherche google: https://wordpress.stackexchange.com/questions/267543/filtering-custom-post-type-query
+            // Google search for a solution: https://wordpress.stackexchange.com/questions/267543/filtering-custom-post-type-query
 
             $posts = get_posts(
                 [

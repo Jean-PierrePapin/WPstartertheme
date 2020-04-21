@@ -20,5 +20,6 @@ A FAIRE dans le theme/plugin
 -   Créer plugin pour mettre les testimonials en DB avec interface admin pour les enregistrer 
     https://www.youtube.com/watch?v=rj1roENqs-k
     https://www.youtube.com/watch?v=tb68MXVmVKs
+    => FAIT avec des custom post types à la place
 -   Créer des blocks gutenberg pour le template part highlights
 -   Penser à voir comment intégrer WooCommerce et commencer à travailler dessus
