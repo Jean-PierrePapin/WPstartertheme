@@ -30,7 +30,7 @@ function highlights_init() {
  
     $args                       =   array(
         'labels'                =>  $labels,
-        'description'           =>  'A custom post type for testominials',
+        'description'           =>  'A custom post type for higlights',
         'public'                =>  true,
         'publicly_queryable'    =>  true,
         'show_ui'               =>  true,
