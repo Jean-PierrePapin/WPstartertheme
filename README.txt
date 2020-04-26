@@ -21,5 +21,7 @@ A FAIRE dans le theme/plugin
     https://www.youtube.com/watch?v=rj1roENqs-k
     https://www.youtube.com/watch?v=tb68MXVmVKs
     => FAIT avec des custom post types à la place
--   Créer des blocks gutenberg pour le template part highlights
+-   Créer des blocks pour les template parts et enqueue leurs styles
+    https://www.google.com/search?q=styling+existing+blocks+gutenberg+wordpress&oq=styling+existing+blocks+gutenberg+wordpress&aqs=chrome..69i57j69i60l2.2702j0j7&sourceid=chrome&ie=UTF-8
+    https://www.billerickson.net/block-styles-in-gutenberg/
 -   Penser à voir comment intégrer WooCommerce et commencer à travailler dessus
