@@ -16,6 +16,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
     margin: 20px 0;
 }
 
-.wp-block-p {
-    margin: 0 20px;
+p {
+    margin: auto;
 }

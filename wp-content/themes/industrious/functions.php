@@ -58,7 +58,7 @@ add_action( 'after_setup_theme', 'register_my_menus' );
 
 
 // Block styles
-function gutenberg_examples_02_register_block() {
+/* function gutenberg_examples_02_register_block() {
  
     wp_register_style(
         'gutenberg-examples-02-editor',
@@ -81,4 +81,4 @@ function gutenberg_examples_02_register_block() {
     ) );
  
 }
-add_action( 'init', 'gutenberg_examples_02_register_block' );
+add_action( 'init', 'gutenberg_examples_02_register_block' ); */
