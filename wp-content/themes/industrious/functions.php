@@ -58,6 +58,7 @@ add_action( 'after_setup_theme', 'register_my_menus' );
 
 
 // Block styles
+add_theme_support( 'align-wide' );
 /* function gutenberg_examples_02_register_block() {
  
     wp_register_style(

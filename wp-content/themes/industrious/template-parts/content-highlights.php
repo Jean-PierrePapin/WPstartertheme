@@ -26,22 +26,8 @@
 
                 <section>
                     <div class="content">
-                        
-                    <?php
-                    
-                   /*  $output = apply_filters( 'without_the_content', $post->post_content );
-                    echo $output;  */
-
-                    // $blocks = parse_blocks( get_the_content() );
-
-                   
-                    // echo $blocks;
-                    // var_dump( $blocks );
-
-                    
-                    ?>
-                    
-                        <p><?php echo $post->post_content; ?></p>
+                                           
+                        <?php echo $post->post_content; ?>
                         
                     </div>
                 </section>
