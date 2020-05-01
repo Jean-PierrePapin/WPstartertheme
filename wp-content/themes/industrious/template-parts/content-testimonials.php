@@ -30,7 +30,7 @@
                     <div class="content">
                         
                         <blockquote>
-                            <p><?php echo $post->post_content; ?></p>
+                            <?php echo $post->post_content; ?>
                         </blockquote>
                         
                         <div class="author">
@@ -38,7 +38,7 @@
                                 <img src="<?php echo $post->post_image; //get_theme_file_uri( 'images/pic01.jpg' ); ?>" alt="" />
                             </div>
                             
-                            <p class="credit">- <strong><?php echo $post->post_title ?></strong> <span><?php echo 'CEO - ABC Inc.'; ?></span></p>
+                            <p class="credit">- <strong><?php echo $post->post_title; ?></strong> <span><?php echo 'CEO - ABC Inc.'; ?></span></p>
                             <!-- Insert directly the photo in the custom post type -->
                         </div>
 

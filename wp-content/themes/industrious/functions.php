@@ -83,3 +83,5 @@ add_theme_support( 'align-wide' );
  
 }
 add_action( 'init', 'gutenberg_examples_02_register_block' ); */
+
+

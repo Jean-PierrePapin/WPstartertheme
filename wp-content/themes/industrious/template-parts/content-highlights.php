@@ -9,32 +9,70 @@
 
             <?php 
 
+            
+            // WP_Query class use to display 6 custom post types
+            $args = [
+                'post_type'         =>  'highlight',
+                'nopaging'          =>  false,
+                'posts_per_page'    =>  '6',
+                'order'             =>  'ASC',
+                'orderby'           =>  'ID'
+            ];
+            
+            $query = new WP_Query( $args );
+
+            if ( $query->have_posts() ) {
+                while ( $query->have_posts() ) {
+                    $query->the_post();
+                    ?>
+                    
+                    <section>
+                        <div class="content">
+                                           
+
+                    <?php
+
+                    echo $post->post_content;
+
+                    ?>
+                    
+                        </div>
+                    </section>
+
+                    <?php
+                }
+            } else {
+                echo 'No posts found';
+            }
+            
+
             // Google search for a solution: https://wordpress.stackexchange.com/questions/267543/filtering-custom-post-type-query
 
             $posts = get_posts(
                 [
-                    'numberpost'    =>  9,
+                    'numberpost'    =>  6,
                     'post_type'     =>  'highlight',
                     'orderby'       =>  'date',
                     'order'         =>  'ASC'          
                 ]
             );
 
-            foreach( $posts as $post ){ 
+
+            /* foreach( $posts as $post ){ 
 
             ?>
 
                 <section>
                     <div class="content">
                                            
-                        <?php echo $post->post_content; ?>
+                        <?php //echo $post->post_content; ?>
                         
                     </div>
                 </section>
             
             <?php
 
-            }
+            } */
 
             ?>
 

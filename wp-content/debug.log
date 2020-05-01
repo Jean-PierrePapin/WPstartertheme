@@ -642,3 +642,8 @@ Stack trace:
 [28-Apr-2020 18:33:55 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\starter_theme\wp-includes\post-template.php on line 323
 [28-Apr-2020 18:33:56 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\starter_theme\wp-includes\post-template.php on line 317
 [28-Apr-2020 18:33:56 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\starter_theme\wp-includes\post-template.php on line 323
+[01-May-2020 13:47:09 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\xampp\htdocs\starter_theme\wp-includes\update.php on line 388
+[01-May-2020 14:07:31 UTC] PHP Notice:  Undefined variable: paged in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\functions.php on line 91
+[01-May-2020 14:08:00 UTC] PHP Notice:  Undefined variable: paged in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\functions.php on line 91
+[01-May-2020 14:08:04 UTC] PHP Notice:  Undefined variable: paged in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\functions.php on line 91
+[01-May-2020 14:10:06 UTC] PHP Notice:  Undefined variable: paged in C:\xampp\htdocs\starter_theme\wp-content\themes\industrious\functions.php on line 91
