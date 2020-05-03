@@ -7,15 +7,107 @@ Description: free theme from templated.io
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: industrious
-Tags: 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
+Version: 1.0
 */
 
-.wp-block-columns {
-    margin: 20px 0;
+/*
+https://codex.wordpress.org/CSS#WordPress_Generated_Classes
+*/
+.wp-caption {
+    text-align: center;
+    padding: 1rem;
 }
 
-p {
-    margin: auto;
+.wp-caption-text {
+    
+}
+
+.sticky {
+
+}
+
+/* Text meant only for screen readers */
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px1 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    word-wrap: normal !important;
+}
+
+.gallery-caption {
+
+}
+
+.bypostauthor {
+
+}
+
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+/* Personal styling for posts and pages using the BEM system */
+
+/* Post style */
+.post-wp {
+    margin-top: 12rem;
+}
+
+.post-wp__title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.post-wp-content > p {
+    margin: 5rem !important;
+}
+
+.post-wp-content__wrapper {
+
+}
+
+.post-wp-content--no-bottom-margin {
+    margin-bottom: 0;
+}
+
+
+
+/* Page style */
+
+.page-wp {
+    margin-top: 12rem;
+}
+
+.page-wp__title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.page-wp-content {
+
+}
+
+.page-wp-content__wrapper {
+
+}
+
+.page-wp-content--no-bottom-margin {
+    margin-bottom: 0;
 }

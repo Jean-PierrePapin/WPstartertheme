@@ -12,7 +12,7 @@
  * Plugin Name:     Testimonial
  * Plugin URI:      https://shapedplugin.com/plugin/testimonial-pro/
  * Description:     Most Customizable and Powerful Testimonials Showcase Plugin for WordPress that allows you to manage and display Testimonials or Reviews on any page or widget.
- * Version:         2.2
+ * Version:         2.2.1
  * Author:          ShapedPlugin
  * Author URI:      https://shapedplugin.com/
  * Text Domain:     testimonial-free
@@ -68,7 +68,7 @@ if ( ! class_exists( 'SP_Testimonial_FREE' ) ) {
 		 *
 		 * @var string
 		 */
-		public $version = '2.2';
+		public $version = '2.2.1';
 
 		/**
 		 * @var SP_TFREE_Testimonial $shortcode

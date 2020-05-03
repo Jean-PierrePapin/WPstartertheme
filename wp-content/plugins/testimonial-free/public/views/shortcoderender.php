@@ -296,7 +296,7 @@ if ( ! class_exists( 'TFREE_Shortcode_Render' ) ) {
 						include SP_TFREE_PATH . '/public/views/templates/theme-one.php';
 					}
 					$total_rated_testimonials++;
-					$total_rating_count += $rating_value;
+					$total_rating_count += ( $star_rating && ! empty( $tfree_rating_star ) ) ? $rating_value : 0;
 					endwhile;
 			} else {
 				$outline .= '<h2 class="sp-not-testimonial-found">' . esc_html__( 'No testimonials found', 'testimonial-free' ) . '</h2>';

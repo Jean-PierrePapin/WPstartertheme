@@ -6,7 +6,7 @@
 -->
 <html <?php language_attributes(); ?>>
 	<head>
-		<title>Industrious by TEMPLATED</title>
+		
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="" />
@@ -16,6 +16,8 @@
 
 	</head>
 	<body class="is-preload">
+
+		<?php body_class( $class ); ?>
 
 		<!-- Header -->
 		<header id="header">

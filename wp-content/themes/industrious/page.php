@@ -3,8 +3,8 @@
 <!-- FAIRE LES CLASSES CSS PLUS TARD EN COMPRENANT COMMENT LE FICHIER SASS EST STRUCTURE -->
 
 <!-- Page title -->
-<section class="page">
-    <div class="page__title">
+<section class="page-wp">
+    <div class="page-wp__title">
         <h1><?php get_the_title(); ?></h1>
 
         <span>
@@ -19,9 +19,9 @@
 </section>
 
 <!-- Page content -->
-<section class="page-content">
-    <div class="page-content__wrapper">
-        <div class="page-content--no-bottom-margin">
+<section class="page-wp-content">
+    <div class="page-wp-content__wrapper">
+        <div class="page-wp-content--no-bottom-margin">
 
                 <?php
 
@@ -45,6 +45,8 @@
                         );
                         
                         wp_link_pages( $defaults );
+
+                        the_tags();
 
                         ?>
 

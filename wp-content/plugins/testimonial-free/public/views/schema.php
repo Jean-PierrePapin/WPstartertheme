@@ -19,7 +19,7 @@ if ( $post_query->have_posts() ) {
 
 		$testimonial_data  = get_post_meta( get_the_ID(), 'sp_tpro_meta_options', true );
 		$tfree_name        = ( isset( $testimonial_data['tpro_name'] ) ? $testimonial_data['tpro_name'] : '' );
-		$tfree_rating_star = ( isset( $testimonial_data['tpro_rating'] ) ? $testimonial_data['tpro_rating'] : '' );
+		$tfree_rating_star = ( isset( $testimonial_data['tpro_rating'] ) ? $testimonial_data['tpro_rating'] : 'five_star' );
 
 		switch ( $tfree_rating_star ) {
 			case 'five_star':

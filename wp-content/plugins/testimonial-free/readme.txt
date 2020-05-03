@@ -3,7 +3,7 @@ Contributors: shapedplugin
 Donate link: http://shapedplugin.com/donate
 Tags: testimonial, testimonials, testimonial showcase, testimonials showcase, testimonial slider, testimonials slider, testimonial carousel, testimonial front-end submission form, testimonials widget, easy testimonial, testimonial rotator, random testimonials, custom testimonial, collect testimonials, social proof, simple testimonial plugin, best testimonials showcase plugin, free testimonial, customers reviews
 Requires at least: 4.0
-Tested up to: 5.4
+Tested up to: 5.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -198,6 +198,9 @@ Thank you!
 
 
 == Changelog ==
+
+= 2.2.1 - May 02, 2020 =
+* Fix: Undefined variable notices issue.
 
 = 2.2 - Mar 25, 2020 =
 * Fix: Security issue. (This vulnerability was discovered by Vishnupriya Ilango of Fortinet's FortiGuard Labs.)

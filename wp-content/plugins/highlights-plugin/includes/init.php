@@ -11,7 +11,7 @@ function highlights_init() {
         'new_item'              => __( 'New highlights', 'highlight' ),
         'edit_item'             => __( 'Edit highlights', 'highlight' ),
         'view_item'             => __( 'View highlights', 'highlight' ),
-        'all_items'             => __( 'All highlightss', 'highlight' ),
+        'all_items'             => __( 'All highlights', 'highlight' ),
         'search_items'          => __( 'Search highlights', 'highlight' ),
         'parent_item_colon'     => __( 'Parent highlights:', 'highlight' ),
         'not_found'             => __( 'No highlights found.', 'highlight' ),
@@ -23,7 +23,7 @@ function highlights_init() {
         'archives'              => _x( 'highlight archives', 'The post type archive label used in nav menus. Default “Post Archives”. Added in 4.4', 'highlight' ),
         'insert_into_item'      => _x( 'Insert into highlights', 'Overrides the “Insert into post”/”Insert into page” phrase (used when inserting media into a post). Added in 4.4', 'highlight' ),
         'uploaded_to_this_item' => _x( 'Uploaded to this highlights', 'Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used when viewing media attached to a post). Added in 4.4', 'highlight' ),
-        'filter_items_list'     => _x( 'Filter highlightss list', 'Screen reader text for the filter links heading on the post type listing screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4', 'highlight' ),
+        'filter_items_list'     => _x( 'Filter highlights list', 'Screen reader text for the filter links heading on the post type listing screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4', 'highlight' ),
         'items_list_navigation' => _x( 'highlight list navigation', 'Screen reader text for the pagination heading on the post type listing screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4', 'highlight' ),
         'items_list'            => _x( 'highlight list', 'Screen reader text for the items list heading on the post type listing screen. Default “Posts list”/”Pages list”. Added in 4.4', 'highlight' ),
     );
